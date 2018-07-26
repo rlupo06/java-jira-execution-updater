@@ -52,20 +52,20 @@ Running tests
 
 **Terminal**
 
-Update jira's execution results
+Update Zephyr test execution results
 ```
 $ ./gradlew -DcucumberReportLocation="../target/cucumber-report/cucumber.json" -Dportal="portalName" -Ddevice="deviceName" -Dusername="jiraUsername" -Dpassword="jiraPassword" clean test --tests *runner.updateExecutionResults -i
 
 ```
 
-Sync zephyr versions with zephyr's Master version
+Sync Zephyr versions with Zephyr's Master version
 ```
 $ ./gradlew -DversionToCopy="MasterVersion"  -Dportal="PortalName" -Ddevices="devices" -Dusername="jiraUsername" -Dpassword='jira.password' clean test --tests *runner.updateZephyrVersions -i
 
 ```
 
 
-Add steps from cucumber feature files to Zephyr test cases
+Add steps from Cucumber feature files to Zephyr test cases
 ```
 $ ./gradlew -DgherkinFileLocation="featureFileLocation" -Dusername='jiraUsername' -Dpassword='jiraPassword' clean test --tests *runner.updateTestCases -i
 ```

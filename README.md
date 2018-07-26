@@ -1,9 +1,9 @@
 # java-jira-execution-updater
 
 **Resources**
+- [Zephyr-API](https://getzephyr.docs.apiary.io/)
 - [Cucumber-JVM](https://cucumber.io/docs/reference/jvm)
 - [Cucumber-JVM API](http://cucumber.github.io/api/cucumber/jvm/javadoc/)
-- [Zephyr-API](https://getzephyr.docs.apiary.io/)
 
 ### Setup
 

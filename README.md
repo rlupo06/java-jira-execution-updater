@@ -1,4 +1,4 @@
-jira-execution-updater
+# jira-execution-updater
 
 **Resources**
 - [Zephyr-API](https://getzephyr.docs.apiary.io/)

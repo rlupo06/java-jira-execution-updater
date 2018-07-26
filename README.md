@@ -1,4 +1,4 @@
-# java-cucumber-selenium
+# java-jira-execution-updater
 
 **Resources**
 - [Cucumber-JVM](https://cucumber.io/docs/reference/jvm)
@@ -50,14 +50,7 @@ $ brew install git
 
 Running tests
 
-**IntelliJ**
-
-Create run configuration. This will allow you to run Scenarios by right clicking them and selecting run in IntelliJ.
-- Run => Edit Configurations
-- Create new Cucumber Java run configuration
-    - Main class: cucumber.api.cli.Main
-    - Glue: cucumber.steps cucumber.support
-    - Feature or folder path: /path/to/features
+**Terminal**
 
 Update jira's execution results
 ```
